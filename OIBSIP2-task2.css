@@ -1,0 +1,257 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #758b1293;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #758b12;
+    color: #000000;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#intro {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+#intro p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #273b07;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Updated CSS code for the "achievements" section */
+#achievements {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#achievements h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+li {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Additional styles to match the page theme */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Updated CSS code for the image container */
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Place elements on opposite sides */
+    align-items: center; /* Vertically align elements */
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #758b12; /* Background color for the circle */
+}
+
+/* Updated CSS code for the image */
+.image-container img {
+    width: 55%; /* Adjust the width as needed */
+    height: 30%;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+/* Updated CSS code for the quote overlay */
+.quote-overlay {
+    background-color: rgba(0, 0, 0);
+    padding: 20px;
+    width: 45%; /* Adjust the width as needed */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Updated CSS code for the quote overlay on hover */
+.image-container:hover .quote-overlay {
+    opacity: 1; /* Make the quote overlay visible */
+}
+
+blockquote {
+    font-style: italic;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #333;
+    padding-left: 15px;
+    margin: 15px 0;
+    color: #555;
+}
+
+/* Updated CSS code for the "Inspirational Quotes" section */
+#quotes {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#quotes h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 10px 0;
+    padding-left: 20px;
+    border-left: 4px solid #333;
+    font-size: 18px;
+}
+
+/* Additional styles to match the page theme */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
