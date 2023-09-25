@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(0, 89, 255), rgb(38, 0, 255));
+    margin: 0;
+    padding: 0;
+    height: 610px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: #333333;
+}
+
+.input-container {
+    
+    margin-bottom: 20px;
+
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #059600;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+.completed-button{
+    background-color: #15b415;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.completed-button:hover{
+    background-color: #4ea54e;
+}
+
+.delete-button {
+    background-color: #b90b0b;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.delete-button:hover {
+    background-color: #8d1414;
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.task-list li:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.right-section .task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-section .task-list li {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.right-section .task-list li:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
