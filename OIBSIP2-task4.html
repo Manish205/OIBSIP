@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="OIBSIP2-task4.css">
+    <title>Login Authentication System</title>
+</head>
+<body>
+    <div id="container">
+        <h1>To continue, <br>Sign in!</h1><br>
+        <div id="login-form">
+            <div class="input-container">
+                <input type="text" id="username" placeholder="Username">
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" placeholder="Password">
+                <span class="visibility-toggle" onclick="togglePasswordVisibility()">Show</span>
+            </div>
+            <div class="options">
+                <label for="remember-me"><input type="checkbox" id="remember-me"> Remember Me</label>
+                <a href="#" id="forgot-password">Forgot Password?</a>
+            </div>
+            <button onclick="login()">Login</button><br><br><br><br><br><br><br><br>
+            <p class="or-text">---- Or Sign In With ----</p>
+            <div class="social-buttons">
+                <button class="social-button google"><a href="https://accounts.google.com/v3/signin/identifier?hl=en-gb&ifkv=AYZoVhf_-lNhS_cschiMnD100p4_t02dab9RRlTyfe9Fl_7T_b6cCrmFgkAXh2bz5FFUw1qjNne6mw&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-419199288%3A1695709140716525&theme=glif"><img src="Google.jpg" style="width: 32px; height: 32px; border-radius: 50%;"></a></button>
+                <button class="social-button facebook"><img src="Fb.png" style="width: 40px; height: 40px; border-radius: 50%;"></button>
+                <button class="social-button twitter"><img src="Twitter.png" style="width: 40px; height: 40px; border-radius: 50%;"></button>
+            </div>
+        </div>
+    </div>
+    <div id="popup-message" class="popup">
+        <p>Login successful! Welcome back, Manish.</p>
+    </div>
+    <script src="OIBSIP2-task4.js"></script>
+</body>
+</html>

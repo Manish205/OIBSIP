@@ -1,0 +1,157 @@
+body {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 410px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.055); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#login-form {
+    margin-top: 20px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    height: 20px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #fff;
+}
+
+.visibility-toggle {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 2px;
+    accent-color: #FBCEB5;
+}
+
+#forgot-password {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #FBCEB5;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fdc09f; 
+}
+
+.or-text {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.social-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-button.google {
+    background-color: #ffffff; 
+}
+
+.social-button.facebook {
+    background-color: #ffffff; 
+}
+
+.social-button.twitter {
+    background-color: #fdfeff; 
+}
+
+.visibility-toggle {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.popup {
+    position: fixed;
+    font-size: 15px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 128, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    z-index: 1000;
+    display: none;
+}
